@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Usuario</title> 
+{% endblock %}
+
+{% block class %}
+class = "outro_background"
+{% endblock %}
+{% block content %}
+<table>
+    <tr>
+        <th>Email</th>
+        <th>Assunto</th>
+        <th>Descrição</th>
+    </tr>
+    {% for usuario in usuarios %}
+    <tr>
+        <td>{{usuario["email_usuario"]}}</td>
+        <td>{{usuario["assunto_usuario"]}}</td>
+        <td>{{usuario["descricao_usuario"]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

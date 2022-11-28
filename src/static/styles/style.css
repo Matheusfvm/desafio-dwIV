@@ -1,0 +1,42 @@
+/* O background do arquivo home é diferente dos outros arquivos */
+body {
+  margin-left: 20%;
+}
+
+div {
+  width: 900px;
+}
+
+span.link {
+  float: right; 
+  margin-top: 55px;
+}
+.index_background {
+  background-image: url(../public/fundo.png);
+  
+}
+.outro_background {
+  background-image: url(../public/fundo2.png);
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.capa {
+  margin-top: 20px;
+}
+
+.rodape {
+  margin-top: 50px; 
+  text-align: center;
+}
+
+table {
+  width: 900px;
+  margin-top: 40px;
+}
+
+table, td, th {
+  border:1px solid black;
+}
